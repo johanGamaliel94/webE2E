@@ -59,10 +59,10 @@
             </button>
             <ul class="nav navbar-left">
                 <li class="dropdown">
-                    <a runat="server" id="razon_soc">Razón social</a>
+                    <a runat="server" id="razon_soc" class="detalles_cli">Razón social</a>
                 </li>
                 <li class="dropdown">
-                    <a runat="server" id="nombre_com">Nombre comercial</a>
+                    <a runat="server" id="nombre_com" class="detalles_cli">Nombre comercial</a>
                 </li>
             </ul>
         </div>
@@ -102,7 +102,7 @@
                         
                     </ul>
                 </li>
-                <li>
+                <li style="display:none">
                     <a href="#" data-toggle="collapse" data-target="#submenu-2"><i class="glyphicon glyphicon-shopping-cart"></i>  Productos <i class="glyphicon glyphicon-chevron-down"></i></a>
                     <ul id="submenu-2" class="collapse">
                         <li id="ver_prod"><a href="#"><i class="glyphicon glyphicon-chevron-right"></i> Ver productos</a></li>

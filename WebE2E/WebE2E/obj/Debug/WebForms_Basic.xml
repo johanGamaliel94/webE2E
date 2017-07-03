@@ -118,6 +118,15 @@ To modify move field declaration from designer file to code-behind file.
  Returns the Asp log object.
  </summary>
 </member>
+<member name="F:WebE2E.OrdersReport._nombreRep">
+<summary>
+nombreRep control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:WebE2E.OrdersReport._CrystalReportViewer1">
 <summary>
 CrystalReportViewer1 control.
@@ -256,6 +265,33 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:WebE2E.Registro._RegistraUs">
 <summary>
 RegistraUs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebE2E.Reporte._errores">
+<summary>
+errores control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebE2E.Reporte._nombreRep">
+<summary>
+nombreRep control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebE2E.Reporte._content">
+<summary>
+content control.
 </summary>
 <remarks>
 Auto-generated field.

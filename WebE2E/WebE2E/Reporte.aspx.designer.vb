@@ -11,7 +11,16 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class OrdersReport
+Partial Public Class Reporte
+    
+    '''<summary>
+    '''errores control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents errores As Global.System.Web.UI.HtmlControls.HtmlGenericControl
     
     '''<summary>
     '''nombreRep control.
@@ -23,11 +32,11 @@ Partial Public Class OrdersReport
     Protected WithEvents nombreRep As Global.System.Web.UI.HtmlControls.HtmlGenericControl
     
     '''<summary>
-    '''CrystalReportViewer1 control.
+    '''content control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents CrystalReportViewer1 As Global.CrystalDecisions.Web.CrystalReportViewer
+    Protected WithEvents content As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 End Class

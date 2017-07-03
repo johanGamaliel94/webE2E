@@ -166,6 +166,7 @@
     <Content Include="ProductsReport.aspx" />
     <Content Include="ProductsReportList.aspx" />
     <Content Include="Registro.aspx" />
+    <Content Include="Reporte.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\crystalreportviewers13\ActiveXControls\PrintControl.cab" />
@@ -903,6 +904,13 @@
     </Compile>
     <Compile Include="Registro.aspx.vb">
       <DependentUpon>Registro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reporte.aspx.designer.vb">
+      <DependentUpon>Reporte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte.aspx.vb">
+      <DependentUpon>Reporte.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Reports\reporte2.vb">

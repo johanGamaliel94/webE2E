@@ -192,4 +192,8 @@ textarea {
     padding: 5px 15px;
 }
 
+.detalles_cli{
+    background-color:transparent !important;
+}
+
 /*Termina estilo barra lateral*/
