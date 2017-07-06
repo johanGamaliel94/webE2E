@@ -1,4 +1,5 @@
-﻿Imports CrystalDecisions.CrystalReports.Engine
+﻿Imports System.Drawing.Printing
+Imports CrystalDecisions.CrystalReports.Engine
 
 Public Class OrdersReport
     Inherits System.Web.UI.Page
@@ -24,13 +25,22 @@ Public Class OrdersReport
             doc.Load(Server.MapPath("~/Reports/" + nombreReporte)) 'El nombre del reporte('Reporte_prueba.rpt') va a ser dinámico
             CrystalReportViewer1.ReportSource = doc
             CrystalReportViewer1.RefreshReport()
+
         Catch ex As Exception
             nombreRep.InnerText = "El reporte no existe. <a href='ProductsReportList' class='btn btn-link' runat='server'>Regresar</a>"
+
         End Try
-
-
     End Sub
 
+    Protected Sub Imprime_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btn_imprime.ServerClick
+        Try
+            'Imprimir el informe. Establecer los parámetros startPageN 
+            '  y endPageN en 0 para imprimir todas las páginas.
+            doc.PrintToPrinter(1, True, 0, 0)
+        Catch ex As Exception
+            errores.InnerHtml = "<p style='color: crimson;'>No es posible imprimir el reporte</p>"
+        End Try
+    End Sub
 
 
 End Class

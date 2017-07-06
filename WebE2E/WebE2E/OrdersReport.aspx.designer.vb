@@ -14,6 +14,24 @@ Option Explicit On
 Partial Public Class OrdersReport
     
     '''<summary>
+    '''btn_imprime control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btn_imprime As Global.System.Web.UI.HtmlControls.HtmlButton
+    
+    '''<summary>
+    '''errores control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents errores As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+    
+    '''<summary>
     '''nombreRep control.
     '''</summary>
     '''<remarks>
