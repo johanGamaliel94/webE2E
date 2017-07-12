@@ -60,27 +60,63 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebE2E.Login._correo_log">
+<member name="F:WebE2E.Login._claveClienteLog">
 <summary>
-correo_log control.
+claveClienteLog control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebE2E.Login._contrasenia_log">
+<member name="F:WebE2E.Login._errorClaveCli">
 <summary>
-contrasenia_log control.
+errorClaveCli control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebE2E.Login._url">
+<member name="F:WebE2E.Login._claveUsuarioLog">
 <summary>
-url control.
+claveUsuarioLog control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebE2E.Login._errorClaveUs">
+<summary>
+errorClaveUs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebE2E.Login._contraseniaLog">
+<summary>
+contraseniaLog control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebE2E.Login._pwdUs">
+<summary>
+pwdUs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebE2E.Login._errores">
+<summary>
+errores control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -118,18 +154,27 @@ To modify move field declaration from designer file to code-behind file.
  Returns the Asp log object.
  </summary>
 </member>
-<member name="F:WebE2E.OrdersReport._nombreRep">
+<member name="F:WebE2E.OrdersReport._btn_imprime">
 <summary>
-nombreRep control.
+btn_imprime control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebE2E.OrdersReport._btn_imprime">
+<member name="F:WebE2E.OrdersReport._errores">
 <summary>
-btn_imprime control.
+errores control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebE2E.OrdersReport._nombreRep">
+<summary>
+nombreRep control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -325,9 +370,54 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:WebE2E.Site1._etiqueta_usuario">
+<summary>
+etiqueta_usuario control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:WebE2E.Site1._MainContent">
 <summary>
 MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebE2E.Site1._usuario_label">
+<summary>
+usuario_label control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebE2E.Site1._nombre_com_label">
+<summary>
+nombre_com_label control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebE2E.Site1._razon_soc_label">
+<summary>
+razon_soc_label control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebE2E.Site1._nivel_seguridad_label">
+<summary>
+nivel_seguridad_label control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -396,6 +486,36 @@ ViewSwitcher1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member>
+<member name="T:WebE2E.WebService.Service1">
+<remarks/>
+</member>
+<member name="M:WebE2E.WebService.Service1.#ctor">
+<remarks/>
+</member>
+<member name="E:WebE2E.WebService.Service1.wmCampoCompleted">
+<remarks/>
+</member>
+<member name="M:WebE2E.WebService.Service1.wmCampo(System.String)">
+<remarks/>
+</member>
+<member name="M:WebE2E.WebService.Service1.wmCampoAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:WebE2E.WebService.Service1.wmCampoAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:WebE2E.WebService.Service1.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:WebE2E.WebService.wmCampoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:WebE2E.WebService.wmCampoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:WebE2E.WebService.wmCampoCompletedEventArgs.Result">
+<remarks/>
 </member>
 </members>
 </doc>

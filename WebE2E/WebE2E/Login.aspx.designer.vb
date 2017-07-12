@@ -14,29 +14,65 @@ Option Explicit On
 Partial Public Class Login
     
     '''<summary>
-    '''correo_log control.
+    '''claveClienteLog control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents correo_log As Global.System.Web.UI.HtmlControls.HtmlInputText
+    Protected WithEvents claveClienteLog As Global.System.Web.UI.HtmlControls.HtmlInputText
     
     '''<summary>
-    '''contrasenia_log control.
+    '''errorClaveCli control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents contrasenia_log As Global.System.Web.UI.HtmlControls.HtmlInputPassword
+    Protected WithEvents errorClaveCli As Global.System.Web.UI.HtmlControls.HtmlGenericControl
     
     '''<summary>
-    '''url control.
+    '''claveUsuarioLog control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents url As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+    Protected WithEvents claveUsuarioLog As Global.System.Web.UI.HtmlControls.HtmlInputText
+    
+    '''<summary>
+    '''errorClaveUs control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents errorClaveUs As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+    
+    '''<summary>
+    '''contraseniaLog control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents contraseniaLog As Global.System.Web.UI.HtmlControls.HtmlInputPassword
+    
+    '''<summary>
+    '''pwdUs control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents pwdUs As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+    
+    '''<summary>
+    '''errores control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents errores As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 End Class

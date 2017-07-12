@@ -27,7 +27,7 @@ Public Class OrdersReport
             CrystalReportViewer1.RefreshReport()
 
         Catch ex As Exception
-            nombreRep.InnerText = "El reporte no existe. <a href='ProductsReportList' class='btn btn-link' runat='server'>Regresar</a>"
+            nombreRep.InnerHtml = "El reporte no existe. <a href='OrdersReportList' class='btn btn-link' runat='server'>Regresar</a>"
 
         End Try
     End Sub

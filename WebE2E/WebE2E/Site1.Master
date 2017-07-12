@@ -59,10 +59,13 @@
             </button>
             <ul class="nav navbar-left">
                 <li class="dropdown">
-                    <a runat="server" id="razon_soc" class="detalles_cli">Razón social</a>
+                    <a href="menu.aspx" runat="server" id="razon_soc" class="detalles_cli">Razón social</a>
                 </li>
                 <li class="dropdown">
-                    <a runat="server" id="nombre_com" class="detalles_cli">Nombre comercial</a>
+                    <a href="menu.aspx" runat="server" id="nombre_com" class="detalles_cli">Nombre comercial</a>
+                </li>
+                <li class="dropdown">
+                    <a>                                                           </a>
                 </li>
             </ul>
         </div>
@@ -72,7 +75,8 @@
                 </a>
             </li-->            
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuario <b class="glyphicon glyphicon-chevron-down"></b></a>
+
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><label id="etiqueta_usuario" runat="server"></label> <b class="glyphicon glyphicon-chevron-down"></b></a>
                 <ul class="dropdown-menu">
                     <li><a href="#"><i class="glyphicon glyphicon-user"></i> Editar perfil</a></li>
                     <li><a href="#"><i class="glyphicon glyphicon-edit"></i> Cambiar contraseña</a></li>
@@ -94,7 +98,7 @@
                             <ul id="subsubmenu-1" class="collapse">
                                 <li><a runat="server" href="~/CreateOrdersReport"><i class="glyphicon glyphicon-chevron-right"></i> Crear nuevo reporte</a></li>
                                 <li><a runat="server" href="~/OrdersReportList"><i class="glyphicon glyphicon-chevron-right"></i> Lista Reportes</a></li>
-                                <li><a runat="server" href="~/OrdersReport"><i class="glyphicon glyphicon-chevron-right"></i> Ver Reportes</a></li>
+                                
                             </ul>
                         </li>
                         <li></li>
@@ -139,7 +143,16 @@
                 
                 <asp:ContentPlaceHolder ID="MainContent" runat="server">
                     <div class="col-sm-12 col-md-12 well" id="content">
-                    <h1>Bienvenido, usuario!</h1>
+                    <h1>Bienvenido, <label id="usuario_label" runat="server"></label>!</h1>
+                        <div class="row">
+                            <label class="control-label">Nombre comercial: <label id="nombre_com_label" runat="server"></label></label>
+                        </div>
+                        <div class="row">
+                            <label class="control-label">Razón social: <label id="razon_soc_label" runat="server"></label></label>
+                        </div>
+                        <div class="row">
+                            <label class="control-label">Nivel de seguridad: <label id="nivel_seguridad_label" runat="server"></label></label>
+                        </div>
                     </div>  
                 </asp:ContentPlaceHolder>
                 
